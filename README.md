@@ -1,4 +1,5 @@
-Tarea realizada con éxito por Elizabeth Oropeza Luna. XD
+Tarea realizada con éxito por Elizabeth Oropeza Luna.
+Destinatario: Docente Miguel Silva
 
 Aquí dejo la presentación de los desarrollados en HTML...
 - En ambos retos usé "&nbsp" en lugar de ordenar en tablas, esto debido al desorden y la dificultad que me estaba generando.
