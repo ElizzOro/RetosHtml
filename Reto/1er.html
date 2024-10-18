@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form1</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="img\logo\people.png">
+    <!--Author: Elizabeth Oropeza-->
+</head>
+<body>
+    <div>
+        <table border="" bgcolor="black">
+            <thead bgcolor="">
+                <th width="300px"><font color="white">Acceso al Sistema</font></th>
+            </thead>
+            <tr>
+                <td bgcolor="tomato" size="100px"><br>
+                    <form name="frm" action="" method="post">
+                        <fieldset>
+
+                            <legend align="center"><b>Bienvenidos</b></legend>
+
+                            <label for="tipo">Usuario</label>&nbsp;&nbsp;&nbsp;
+                            <select id="tipo" name="tipo">
+                                <option value="0">Seleccionar...</option>
+                                <option value="admin">Administrador</option>
+                                <option value="autoridad">Autoridad</option>
+                                <option value="docente">Docente</option>
+                                <option value="alumno">Alumno</option>
+                            </select><br><br>
+
+                        <label>Login:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" name="usuario" value="" maxlength="20" size="20"
+                        placeholder="Ingrese su nombre"> <br><br>
+                        
+                        <label for="clave">Clave</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="password" id="clave" name="clave"><br><br>
+
+                        <fieldset align ="center">
+                            <input type="submit" name="sbmt1" value="Aceptar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="submit" name="sbmt2" value="Cancelar">
+                            </fieldset>
+                    </fieldset><br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

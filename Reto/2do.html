@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form2</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="img\logo\people.png">
+    <!--Author: Elizabeth Oropeza-->
+</head>
+<body>
+    <div>
+        <table border="" bgcolor="BLACK">
+            <thead bgcolor="">
+                <th width="450px"><font color="white">Registro de Estudiantes</font></th>
+            </thead>
+            <tr>
+                <td bgcolor="tomato" size="100px"><br>
+                    <form name="frm" action="" method="post">
+                        <fieldset align="justify">
+                            <legend align="center"><b>Datos Personales</b></legend>
+
+                            <label>DNI:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="dni" value="" maxlength="8" size="6"
+                            placeholder="Ingrese dni">&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <label>Apellidos:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="ape" value="" maxlength="45" size="20"
+                            placeholder="Ingrese sus apellidos">&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+                                
+                            <label>Nombres:</label>&nbsp;&nbsp;
+                            <input type="text" name="nom" value="" maxlength="45" size="20"
+                            placeholder="Ingrese su nombre">&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;
+
+                            <label>Dirección:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="dir" value="" maxlength="45" size="20"
+                            placeholder="Ingrese su Dirección">&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+
+                            <label for="tipo">Género</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <select id="tipo" name="tipo">
+                                <option value="0">Seleccionar...</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
+                            </select>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <label>Fecha de Nacimiento:</label>
+                            <input type="date" name="fnac">
+                            <br>
+                        </fieldset>
+                        <br>
+                        <fieldset align="justify">
+                            <legend align="center"><b>Datos Académicos</b></legend>
+
+                            <label>Código:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="cod" value="" maxlength="12" size="8"
+                            placeholder="Cód. Estudiante">&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;
+
+                            <label for="facu">Facultad:</label>
+                            <select id="facu" name="facu">
+                                <option value="0">Seleccionar...</option>
+                                <option value="1">Ciencias</option>
+                                <option value="2">Administración y Turismo</option>
+                                <option value="3">Agronomía</option>
+                                <option value="4">Ciencias Médicas</option>
+                                <option value="5">Ciencias Sociales Educación y Comunicaciones</option>
+                                <option value="6">Economía y contabilidad</option>
+                                <option value="7">Derecho y Ciencias Políticas</option>
+                                <option value="8">Industrias Alimentarias</option>
+                                <option value="9">Minas y Metalurgia</option>
+                                <option value="10">Ingeniería Civil</option>
+                                <option value="11">Ciencias del Ambiente</option>
+                            </select> 
+                            <br><br>
+
+                            <label for="facu">Escuela:</label>&nbsp;&nbsp;&nbsp;
+                            <input type="search" name="Escuelas" list="escuela" size="45" placeholder="Seleccionar Escuela">
+                            <datalist id="escuela">
+                                <option value="Administración">
+                                <option value="Turismo">
+                                <option value="Estadística e Informática">
+                                <option value="Ingeniería de Sistemas e Informática">
+                                <option value="Matemática">
+                                <option value="Ingeniería Agrícola">
+                                <option value="Ingeniería Agronómica">
+                                <option value="Ingeniería Ambiental">
+                                <option value="Ingeniería Sanitaria">
+                                <option value="Enfermería">
+                                <option value="Obstetricia">
+                                <option value="Arqueología">
+                                <option value="Ciencias de la Comunicación">
+                                <option value="Educación">
+                                <option value="Derecho y Ciencias Políticas">
+                                <option value="Contabilidad">
+                                <option value="Economía">
+                                <option value="Arquitectura y Urbanismo">
+                                <option value="Ingeniería Civil">
+                                <option value="Ingeniería de Industrias Alimentarias">
+                                <option value="Ingeniería Industrial">
+                                <option value="Ingeniería de Minas">
+                            </datalist>
+                            <br><br>
+
+                            <label>Expediente de Ingreso:</label> &nbsp;&nbsp;&nbsp;
+                            <input type="file" name="exp">
+                            <br><br>
+
+                            <fieldset align ="center">
+                                <legend><b>Modalidad de Ingreso</b></legend>
+                                <input type="radio" name="mi"> CPU
+                                <input type="radio" name="mi"> Ordinario
+                                <input type="radio" name="mi"> Extraordinario
+                            </fieldset>
+                        </fieldset>
+                        <br>
+                        <fieldset align ="center">
+                            <input type="submit" name="sbmt1" value="Crear">&nbsp;&nbsp;
+                            <input type="submit" name="sbmt2" value="Modificar">&nbsp;&nbsp;
+                            <input type="submit" name="sbmt3" value="Eliminar">&nbsp;&nbsp;
+                            <input type="submit" name="sbmt4" value="Cancelar">&nbsp;&nbsp;
+                            <input type="submit" name="sbmt5" value="Salir">
+                        </fieldset>
+                    <br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+<!---
+    <h3><br>CREACIÓN DE TABLAS</h3><br>
+    <table border='1px'>
+      <thead><tr><th>Código</th><th>Escuela</th><th>Facultad</th></tr></thead>
+      <tbody>
+        <tr><td>Esc_01</td><td>Ingeniería de Sistemas e Informática</td><td>Facultad de Ciencias</td></tr>
+        <tr><td>Esc_02</td><td>Estadística e Informática</td><td>Facultad de Ciencias</td></tr>
+        <tr><td>Esc_03</td><td>Matemática</td><td>Facultad de Ciencias</td></tr>
+        <tr><td>Esc_04</td><td>Ingeniería de minas</td><td>Facultad de Mminas y Metalurgia</td></tr>
+      </tbody>
+    </table>
+<br>
+-->
